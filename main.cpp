@@ -7,11 +7,12 @@ using namespace std;
 
 #define BREITE 120
 #define A
+#define zeilen 5
 int main()
 {
     fstream f;
     string xyz;
-    int zeilen=0,n;
+    //int zeilen=0,n;
     char filename[16];
     
     printf("Filename: ");
